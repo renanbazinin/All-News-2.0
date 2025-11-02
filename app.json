@@ -24,8 +24,7 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/myLogo.png",
-      "bundler": "metro"
+      "favicon": "./assets/images/myLogo.png"
     },
     "plugins": [
       "expo-router",
@@ -47,10 +46,7 @@
       "reactCompiler": true
     },
     "extra": {
-      "router": {
-        "origin": "hash",
-        "basePath": "/All-News-2.0"
-      },
+      "router": {},
       "eas": {
         "projectId": "d37c15f3-9565-47fc-b941-7a1fce0e98cc"
       }
