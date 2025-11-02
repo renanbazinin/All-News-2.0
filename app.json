@@ -24,7 +24,9 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/myLogo.png"
+      "favicon": "./assets/images/myLogo.png",
+      "bundler": "metro",
+      "publicPath": "/All-News-2.0/"
     },
     "plugins": [
       "expo-router",
