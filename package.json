@@ -9,7 +9,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "build:web": "expo export --platform web",
+    "predeploy": "npm run build:web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
@@ -54,7 +57,7 @@
   "bugs": {
     "url": "https://github.com/renanbazinin/All-News-2.0/issues"
   },
-  "homepage": "https://github.com/renanbazinin/All-News-2.0",
+  "homepage": "https://renanbazinin.github.io/All-News-2.0/",
   "author": "Renan Bazinin",
   "license": "MIT",
   "engines": {
