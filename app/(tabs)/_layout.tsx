@@ -17,17 +17,25 @@ export default function TabLayout() {
         tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
+        name="news"
+        options={{
+          title: 'News',
+          tabBarIcon: ({ color }) => <IconSymbol size={32} name="newspaper.fill" color={color} />,
+          tabBarLabelStyle: { fontSize: 14, fontWeight: '600' },
+        }}
+      />
+      <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: 'About',
+          tabBarIcon: ({ color }) => <IconSymbol size={24} name="info.circle.fill" color={color} />,
+          tabBarLabelStyle: { fontSize: 11 },
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          href: null, // Hide this tab
         }}
       />
     </Tabs>
