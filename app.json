@@ -47,7 +47,8 @@
     },
     "extra": {
       "router": {
-        "origin": "hash"
+        "origin": "hash",
+        "basePath": "/All-News-2.0"
       },
       "eas": {
         "projectId": "d37c15f3-9565-47fc-b941-7a1fce0e98cc"

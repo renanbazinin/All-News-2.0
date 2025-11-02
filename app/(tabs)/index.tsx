@@ -26,7 +26,7 @@ export default function AboutScreen() {
       
       <ThemedView style={styles.stepContainer}>
         <ThemedText>
-          Multi-source news aggregator with 9 trusted sources
+          Multi-source news aggregator with 9 trusted sources.
         </ThemedText>
       </ThemedView>
 
